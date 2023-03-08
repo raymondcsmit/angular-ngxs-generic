@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let item of todos | async">
+    {{ item.content }}
+  </li>
+</ul>
+<input type="text" #f />
+<button (click)="SaveTodo(f)">Add Todo</button>

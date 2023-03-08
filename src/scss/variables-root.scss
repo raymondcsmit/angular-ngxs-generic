@@ -1,0 +1,53 @@
+:root {
+  --grid-columns: auto-fit;
+
+  // COLORS
+  --primary-color: 33, 150, 243; // rgb(33, 150, 243) or #2196f3 - Blue 500 https://material.io/design/color/#tools-for-picking-colors
+  --secondary-color: 245, 248, 250; //#b3e5fc;
+  --tertiary: 241, 249, 255;
+  // VARIATIONS
+  --primary-color-dark: 0, 93, 167;
+  --middle-color: 208 208 208;
+
+  --light-gray-bg: 245, 248, 254;
+  --background: 255, 255, 255;
+  --aside-background: 255, 255, 255;
+
+  --border: 50, 50, 50;
+  --border-hover: 214, 214, 214;
+
+  // other disabled colors
+  --disabled-color: 239, 239, 239;
+
+  /* ------------------------------------------------------------------------ *
+    FORMS & INPUTS
+    .floating-label__outline
+  * ------------------------------------------------------------------------ */
+  --field-background: 255, 255, 255;
+  --field-background-focused: 255, 255, 255;
+  --static-border-color: rgba(33, 150, 243, 0.24);
+  --hover-border-color: rgba(33, 150, 243, 0.87);
+  --focused-border-color: 33, 150, 243;
+  --caret-color: 0, 0, 0;
+
+  // disabled floating-label colors
+  --disabled-border-color: rgba(33, 150, 243, 0.24);
+  --append-prepend-disabled: #d7e9f8;
+  --append-prepend-disabled-text: #7ac4ff;
+
+  /* ------------------------------------------------------------------------ *
+    TYPOGRAPHY
+    https://material.io/guidelines/style/typography.html#typography-other-typographic-guidelines
+  * ------------------------------------------------------------------------ */
+  --sans-serif: Roboto, Arial, 'open sans', 'Helvetica Neue', Helvetica,
+    sans-serif;
+  --ar-font: 'ar-reg', var(--sans-serif);
+
+  --title-text: 115, 115, 115;
+  --heading-text: 115, 115, 115;
+  --body-text: 32, 32, 32;
+  --light-text: 128, 128, 128;
+  --dark-text: 115, 115, 115;
+  --disabled-text: 128, 128, 128;
+  --twitter-blue: 29, 161, 242;
+}
