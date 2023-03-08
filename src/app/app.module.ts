@@ -7,18 +7,17 @@ import { TodosState } from './todos.state';
 import { ApiService } from './api.service';
 import { CompngxsComponent } from './compngxs/compngxs.component';
 import { CompgenericngxsComponent } from './compgenericngxs/compgenericngxs.component';
-import { GenericState } from './generic.state';
 import { SecondngxsComponent } from './secondngxs/secondngxs.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { GenericNgxsModule } from './generic-ngxs/generic-ngxs.module';
 
 @NgModule({
   declarations: [AppComponent, CompngxsComponent, CompgenericngxsComponent,SecondngxsComponent],
   imports: [
     BrowserModule, CommonModule,
     FormsModule,
-    NgxsModule.forRoot([TodosState, GenericState]),
-    NgxsReduxDevtoolsPluginModule.forRoot(),
+    GenericNgxsModule,
   ],
   providers: [ApiService], // <-- Add ApiService to providers
   bootstrap: [AppComponent],

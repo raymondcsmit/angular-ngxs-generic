@@ -3,7 +3,7 @@ import { Select, Store } from '@ngxs/store';
 import { Observable, of, Subscription } from 'rxjs';
 import { delay } from 'rxjs/operators';
 import { Student } from '../compgenericngxs/test.model';
-import { AddData, GenericStateModel, LoadData } from '../generic.state';
+import { AddData, LoadData } from '../generic-ngxs';
 
 @Component({
   selector: 'app-secondngxs',

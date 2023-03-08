@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Select, Store } from '@ngxs/store';
-import { delay, Observable, of, Subscription } from 'rxjs';
-import { AddData, GenericStateModel, LoadData } from '../generic.state';
+import { delay, Observable, of } from 'rxjs';
+import { AddData, LoadData } from '../generic-ngxs';
 import { Student } from './test.model';
 
 @Component({
