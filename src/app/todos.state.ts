@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { State, Action, StateContext } from '@ngxs/store';
-import { ApiService } from './api.service';
 import { tap } from 'rxjs/operators';
+import { ApiService } from './generic-ngxs';
 
 export const ADDTODO = 'Add Todo';
 
